@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+    <addon id="repository.sentinel.build" name="SENTINEL Build Repository" version="1.0.0" provider-name="Akahwaj">
+        <extension point="xbmc.addon.repository" name="SENTINEL Repository">
+            <dir minversion="21.0">
+                <info compressed="false">https://raw.githubusercontent.com/Akahwaj/sentinel-build/main/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/Akahwaj/sentinel-build/main/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/Akahwaj/sentinel-build/main/</datadir>
+            </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>SENTINEL Build</summary>
+            <description>18 Premium Add-ons</description>
+            <platform>all</platform>
+            <license>GPL-3.0</license>
+        </extension>
+    </addon>
+</addons>
