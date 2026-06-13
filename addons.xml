@@ -9,10 +9,170 @@
             </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary>SENTINEL Build</summary>
-            <description>18 Premium Add-ons</description>
+            <summary>SENTINEL Build Repository</summary>
+            <description>One-Command Installation with 18 Premium Add-ons</description>
             <platform>all</platform>
             <license>GPL-3.0</license>
         </extension>
     </addon>
+
+    <addon id="plugin.sentinel.wizard" name="SENTINEL Wizard" version="1.0.0" provider-name="Akahwaj">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="addon.py">
+            <provides>executable</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>SENTINEL Build Wizard - One-Command Installer</summary>
+            <description>Install all 18 premium add-ons with one click. Profiles: Lite (Fire Stick), Pro (Fire Stick 4K), Max (Shield), Safe (Legal Only).</description>
+            <platform>all</platform>
+            <license>GPL-3.0</license>
+        </extension>
+    </addon>
+
+    <addon id="plugin.video.umbrella" name="Umbrella" version="1.0.0" provider-name="Umbrella">
+        <extension point="xbmc.addon.metadata">
+            <summary>Umbrella - Premium Debrid Streaming</summary>
+            <description>Top-ranked debrid addon for movies and TV shows.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+
+    <addon id="plugin.video.seren" name="Seren" version="1.0.0" provider-name="Seren">
+        <extension point="xbmc.addon.metadata">
+            <summary>Seren - Debrid Focused Streaming</summary>
+            <description>Excellent scraper quality with debrid support.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+
+    <addon id="plugin.video.salts" name="SALTS" version="1.0.0" provider-name="Slyguy">
+        <extension point="xbmc.addon.metadata">
+            <summary>SALTS - Slyguy's All The Sources</summary>
+            <description>Long-standing debrid addon with excellent quality.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+
+    <addon id="plugin.video.fenlight" name="FEN Light" version="1.0.0" provider-name="FEN">
+        <extension point="xbmc.addon.metadata">
+            <summary>FEN Light - Lightweight Debrid Streaming</summary>
+            <description>Fast alternative for Fire Stick with debrid support.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+
+    <addon id="plugin.video.fenskeleton" name="FenSkeleton" version="1.0.0" provider-name="FenSkeleton">
+        <extension point="xbmc.addon.metadata">
+            <summary>FenSkeleton - Latest FEN Clone</summary>
+            <description>Latest FEN version with CocoScrapers and debrid support.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+
+    <addon id="plugin.video.pov" name="POV" version="1.0.0" provider-name="POV">
+        <extension point="xbmc.addon.metadata">
+            <summary>POV - Clean Debrid Interface</summary>
+            <description>Clean interface with excellent debrid support.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+
+    <addon id="plugin.video.thegears" name="The Gears" version="1.0.0" provider-name="The Gears">
+        <extension point="xbmc.addon.metadata">
+            <summary>The Gears - Fast Debrid Streaming</summary>
+            <description>From The Chains repository. Fast scraping with debrid.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+
+    <addon id="plugin.video.cosmos" name="COSMOS" version="1.0.0" provider-name="COSMOS">
+        <extension point="xbmc.addon.metadata">
+            <summary>COSMOS - Premium Addon</summary>
+            <description>Premium addon from Enigma Repository. Works best with debrid.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+
+    <addon id="plugin.video.thecrew" name="The Crew" version="1.0.0" provider-name="The Crew">
+        <extension point="xbmc.addon.metadata">
+            <summary>The Crew - All-in-One Free Streaming</summary>
+            <description>Works free and with debrid. Movies, TV, Sports, Kids content.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+
+    <addon id="plugin.video.redlight" name="Red Light" version="1.0.0" provider-name="Red Wizard">
+        <extension point="xbmc.addon.metadata">
+            <summary>Red Light - Free Streaming</summary>
+            <description>Free streams from Red Wizard. Solid free option.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+
+    <addon id="plugin.video.vidsrc" name="VIDSRC" version="1.0.0" provider-name="VIDSRC">
+        <extension point="xbmc.addon.metadata">
+            <summary>VIDSRC - Free Movie Streaming</summary>
+            <description>New free addon with multiple link options.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+
+    <addon id="plugin.video.scrubsv2" name="Scrubs V2" version="1.0.0" provider-name="Scrubs">
+        <extension point="xbmc.addon.metadata">
+            <summary>Scrubs V2 - Reliable Free Streaming</summary>
+            <description>Long-running free addon. Pre-installed in SENTINEL builds.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+
+    <addon id="plugin.video.gratisred" name="Gratis Red" version="1.0.0" provider-name="Gratis">
+        <extension point="xbmc.addon.metadata">
+            <summary>Gratis Red - Free Alternative</summary>
+            <description>Free alternative to Red Light with good quality.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+
+    <addon id="plugin.video.diggzfree99" name="Diggz Free99" version="1.0.0" provider-name="Diggz">
+        <extension point="xbmc.addon.metadata">
+            <summary>Diggz Free99 - Free Streaming</summary>
+            <description>Diggz's own free addon. Great starting point.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+
+    <addon id="plugin.video.chains" name="Chains" version="1.0.0" provider-name="Chains">
+        <extension point="xbmc.addon.metadata">
+            <summary>Chains - Free + Debrid Hybrid</summary>
+            <description>Popular hybrid addon. Works free and with debrid.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+
+    <addon id="plugin.video.elementum" name="Elementum" version="1.0.0" provider-name="Elementum">
+        <extension point="xbmc.addon.metadata">
+            <summary>Elementum - Direct Torrent Streaming</summary>
+            <description>Direct torrent streaming. VPN mandatory. Install via Downloader code: 444801</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+
+    <addon id="plugin.video.jacktook" name="Jacktook" version="1.0.0" provider-name="Jacktook">
+        <extension point="xbmc.addon.metadata">
+            <summary>Jacktook - Torrent + Debrid</summary>
+            <description>Torrent and debrid hybrid. VPN recommended.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+
+    <addon id="plugin.video.mediafusion" name="MediaFusion" version="1.0.0" provider-name="MediaFusion">
+        <extension point="xbmc.addon.metadata">
+            <summary>MediaFusion - Advanced Torrent Streaming</summary>
+            <description>Highest-powered scraper. Stremio-based. VPN recommended.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+
 </addons>
