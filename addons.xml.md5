@@ -1,1 +1,4 @@
-ccb9a03ef07c0d47bbeb014bf95bc571  addons.xml
+git add addons.xml.md5
+git commit -m "Update MD5 for new complete addons.xml with all 18 add-ons"
+git push origin main
+
